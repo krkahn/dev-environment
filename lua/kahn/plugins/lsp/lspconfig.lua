@@ -76,6 +76,11 @@ lspconfig["cssls"].setup({
   on_attach = on_attach,
 })
 
+lspconfig["terraformls"].setup({
+  capabilities = capabilities,
+  on_attach = on_attach,
+})
+
 -- configure tailwindcss server
 lspconfig["tailwindcss"].setup({
   capabilities = capabilities,
